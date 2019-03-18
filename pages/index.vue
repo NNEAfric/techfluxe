@@ -18,7 +18,7 @@
                     <v-layout align-center justify-center column fill-height>
                       <v-flex xs12>
                         <span> <v-icon right class="gradient-text">language</v-icon> </span> <span class="white--text pl-2 subheading">Global news</span>
-                        <div class="border-left"> <div class="px-3"><span class="display-1 font-weight-black" style="color: rgba(255, 255, 255, 0.9);"> {{ items.title }} </span></div> </div>
+                        <div class="border-left"> <div class="px-3"><span class="display-1 font-weight-black" style="color: rgba(255, 255, 255, 0.9);"> {{ item.title }} </span></div> </div>
                       </v-flex>
                     </v-layout>
                   </v-container>
