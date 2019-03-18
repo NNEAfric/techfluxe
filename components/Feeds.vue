@@ -50,7 +50,6 @@
               <div class="ml-2 pt-1 border-thin">
                 <h5 class="pb-1"> {{feed.title.slice(0, 85) + "..."}} </h5>
                  <span class="caption">By</span> <span class="gradient-text caption"> {{feed.source}} </span> |
-                 
                  <span class="caption"> {{feed.date}}</span>
               </div>
             </v-flex>

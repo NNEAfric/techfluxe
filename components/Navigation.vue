@@ -18,7 +18,7 @@
         <v-flex class="pa-4 ml-2 mb-3">
           <router-link style="cursor: pointer" to="/">
             <div>
-              <v-img src="https://techfluxe.netlify.com/img/vectors/logo-b.svg" width="100px">
+              <v-img src="/img/vectors/logo-b.svg" width="100px">
                 <template v-slot:placeholder>
                   <v-layout fill-height align-center justify-center ma-0>
                     <v-progress-circular indeterminate color="cyan lighten-4"></v-progress-circular>

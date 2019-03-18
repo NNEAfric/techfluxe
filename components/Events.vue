@@ -40,9 +40,9 @@ export default {
   data () {
     return {
       events: [
-          {id: 'jgk6545', imageUrl: 'https://techfluxe.netlify.com/img/events/ms.jpg', name: 'Microsoft Build', venue: 'Seattle', day: '6', month: 'may'},
-          {id: 'bfdg54d', imageUrl: 'https://techfluxe.netlify.com/img/events/google.png', name: 'Google I/O', venue: 'Mountain View', day: '7', month: 'may'},
-          {id: 'sj4645d', imageUrl: 'https://techfluxe.netlify.com/img/events/code.jpg', name: 'Code Conference', venue: 'Scottsdale, AZ', day: '10', month: 'June'},
+          {id: 'jgk6545', imageUrl: '/img/events/ms.jpg', name: 'Microsoft Build', venue: 'Seattle', day: '6', month: 'may'},
+          {id: 'bfdg54d', imageUrl: '/img/events/google.png', name: 'Google I/O', venue: 'Mountain View', day: '7', month: 'may'},
+          {id: 'sj4645d', imageUrl: '/img/events/code.jpg', name: 'Code Conference', venue: 'Scottsdale, AZ', day: '10', month: 'June'},
         ]
     } 
   }
