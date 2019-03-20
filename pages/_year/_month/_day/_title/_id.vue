@@ -1,6 +1,7 @@
 <template>
   <div>
     {{feed($route.params.id).title}}
+    <v-img :src="feed($route.params.id).imageUrl" />
   </div>
 </template>
 

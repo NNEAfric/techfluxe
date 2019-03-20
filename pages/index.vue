@@ -55,6 +55,16 @@ import Feeds from '@/components/Feeds'
 import { mapGetters } from 'vuex'
 
 export default {
+  head() {
+    return {
+      title: 'TechFluxe | Technology News',
+      meta: [
+        { property: 'og:title', content: 'TechFluxe' },
+        { property: 'og:description', content: 'TechFluxe is a leading technology media in Africa, dedicated to obsessively profiling startups, reviewing new Internet products, and breaking tech news.' },
+        { property: 'og:image', content: '/img/feeds/f1.png' },
+      ]
+    }
+  },
   components: {
     Indicator,
     Events,
