@@ -15,7 +15,7 @@
       <v-flex xs8 md-6>
         <div class="ml-4 pt-2 border">
           <!--Large Display-->
-          <h1 class="display-1 font-weight-bold hidden-sm-and-down"> {{title}} </h1>
+          <h1 class="display-1 font-weight-bold hidden-sm-and-down black--text"> {{title}} </h1>
           <!--Small Display-->
           <h1 class="hidden-md-and-up" style="font-size:4vw; line-height: 1; font-weight:700;"> {{title}} </h1>
 
