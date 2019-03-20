@@ -5,9 +5,9 @@
         <v-container fluid>
           <div>
             <Indicator class="hidden-xs-only" colour="primary" size="18" />
-            <h1 class="title-text gradient-text hidden-xs-only pb-3" style="font-size: 6vw;">Startups</h1>
+            <h1 class="title-text gradient-text hidden-xs-only pb-3" style="font-size: 6vw;">Africa</h1>
             <Indicator class="hidden-sm-and-up" colour="primary" size="12" />
-            <h1 class="gradient-text hidden-sm-and-up pb-3" style="font-size: 15vw;">Startups</h1>
+            <h1 class="gradient-text hidden-sm-and-up pb-3" style="font-size: 15vw;">Africa</h1>
           </div>
         
           <!--Start Feeds-->
@@ -35,16 +35,16 @@ import { mapGetters } from 'vuex'
 export default {
   head() {
     return {
-      title: 'Startups | Techfluxe',
+      title: 'Devices | Techfluxe',
       meta: [
-        { name: 'keywords', content: 'TechFluxe, tech news, technology news, startup news, tech news in africa, tech startup news, best tech news in africa' },
-        { hid: 'description', name: 'description', content: 'technology startups news, startups, startup news in africa' },
+        { name: 'keywords', content: 'Technology news in Africa, tech news in africa, best tech news in africa, africa and techlogy news' },
+        { hid: 'description', name: 'description', content: 'Technolgy news in Africa' },
         { property: 'og:site_name', content: 'TechFluxe' },
         { property: 'og:og:site', content: 'tecfluxe.com' },
-        { property: 'og:title', content: 'Category: Startups' },
+        { property: 'og:title', content: 'Category: Africa' },
         { property: 'og:description', content: '' },
         { property: 'og:image', content: '/img/feeds/f1.png' },
-        { property: 'og:url', content: 'https://techfluxe.netlify.com/startups/' },
+        { property: 'og:url', content: 'https://techfluxe.netlify.com/africa/' },
         { property: 'og:type', content: 'article' },
       ]
     }
@@ -61,7 +61,7 @@ export default {
     }
   },
   computed: mapGetters({
-    feeds: 'feeds/startups',
+    feeds: 'feeds/devices',
   })
 }
 </script>

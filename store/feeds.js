@@ -29,5 +29,20 @@ export const getters = {
     return state.feeds.filter(feed => {
      return feed.category === "apps"
     })
+  },
+  devices (state) {
+    return state.feeds.filter(feed => {
+     return feed.category === "devices"
+    })
+  },
+  people (state) {
+    return state.feeds.filter(feed => {
+     return feed.category === "people"
+    })
+  },
+  africa (state) {
+    return state.feeds.filter(feed => {
+     return feed.category === "africa"
+    })
   }
 }

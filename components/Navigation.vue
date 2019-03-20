@@ -33,7 +33,7 @@
       <v-list two-line>
         <v-list-tile class="list Startups" v-for="link in links" :key="link.text" router :to="link.route">
             <v-list-tile-content>
-              <h1 class="grey--text display-2 text--darken-2 pl-3" style="font-family: 'Nunito';">{{link.text}}</h1>
+              <h1 class="grey--text text--darken-1 pl-3" style="font-size: 32px;">{{link.text}}</h1>
             </v-list-tile-content>
           </v-list-tile>
        </v-list>

@@ -59,9 +59,15 @@ export default {
     return {
       title: 'TechFluxe | Technology News',
       meta: [
-        { property: 'og:title', content: 'TechFluxe' },
+        { name: 'keywords', content: 'TechFluxe, tech news, technology news, startup news, tech news in africa, tech startup news, best tech news in africa' },
+        { hid: 'description', name: 'description', content: 'TechFluxe is a leading technology media in Africa, dedicated to obsessively profiling startups, reviewing new Internet products, and breaking tech news.' },
+        { property: 'og:site_name', content: 'TechFluxe' },
+        { property: 'og:og:site', content: 'tecfluxe.com' },
+        { property: 'og:title', content: '' },
         { property: 'og:description', content: 'TechFluxe is a leading technology media in Africa, dedicated to obsessively profiling startups, reviewing new Internet products, and breaking tech news.' },
         { property: 'og:image', content: '/img/feeds/f1.png' },
+        { property: 'og:url', content: 'https://techfluxe.netlify.com/' },
+        { property: 'og:type', content: 'website' },
       ]
     }
   },
