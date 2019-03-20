@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-layout row class="pt-0 mt-0">
-      <v-flex xs12 sm12 md9>
+      <v-flex xs12 md9>
         <v-container fluid>
           <!--Start Carousel-->
           <v-card flat>
@@ -75,11 +75,11 @@ h5{
   border-radius: 100%;
 }
 .border{
-  border-top: 3px #EEFCFF solid;
+  border-top: 2px #EEFCFF solid;
 }
 
 .border-bottom{
-  border-bottom: 3px #F0F0F0 solid;
+  border-bottom: 2px #F0F0F0 solid;
 }
 
 .border-thin{

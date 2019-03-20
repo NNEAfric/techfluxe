@@ -5,7 +5,7 @@
             <v-card flat>
               <v-card-title class="pb-0">
                 <div class="text-xs-center">
-                  <h1 class="gradient-text display-1 font-weight-bold">TechFluxe Daily</h1>
+                  <h1 class="gradient-text font-weight-bold" style="font-size: 2vw;">TechFluxe Daily</h1>
                   <p class="subheading py-2">Sign up for our daily newsletter to get the top tech news stories delivered to your inbox.</p>
                 </div>
               </v-card-title>
