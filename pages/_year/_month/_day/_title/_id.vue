@@ -4,8 +4,8 @@
       <v-container fluid>
         <v-card flat class="colorBg">
           <v-card-title class="px-0 mx-0">
-            <h1 class="hidden-xs-only" style="font-size: 64px; line-height: 0.9;">{{feed($route.params.id).title}}</h1>
-            <h1 class="hidden-sm-and-up" style="font-size: 48px; line-height: 0.9;">{{feed($route.params.id).title}}</h1>
+            <h1 class="hidden-xs-only" style="font-size: 64px; line-height: 1; width:100%;">{{feed($route.params.id).title}}</h1>
+            <h1 class="hidden-sm-and-up" style="font-size: 48px; line-height: 1; width:100%;">{{feed($route.params.id).title}}</h1>
           </v-card-title>
 
           <v-card flat>
@@ -19,7 +19,7 @@
           </v-card>
 
           <v-card-text class="px-0">
-            <p class="black--text" style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime consequuntur saepe inventore est nam quas, earum ratione sit aliquid quibusdam ullam esse. Assumenda nemo culpa atque libero soluta asperiores quod! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos porro sed eaque, omnis odio vel, repudiandae blanditiis obcaecati quo aliquid impedit placeat excepturi ratione dolores? Maiores ipsam optio eaque maxime.</p>
+            <p class="black--text" style="font-size: 18px; width: 100%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime consequuntur saepe inventore est nam quas, earum ratione sit aliquid quibusdam ullam esse. Assumenda nemo culpa atque libero soluta asperiores quod! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos porro sed eaque, omnis odio vel, repudiandae blanditiis obcaecati quo aliquid impedit placeat excepturi ratione dolores? Maiores ipsam optio eaque maxime.</p>
           </v-card-text>
         </v-card>
       </v-container>
@@ -74,4 +74,5 @@ export default {
   0% { transform: scale(1); opacity: 1; }
   100% { transform: scale(.9); opacity: 0; }
 }
+
 </style>
