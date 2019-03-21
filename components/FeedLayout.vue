@@ -15,22 +15,22 @@
       <v-flex xs8 md-6>
         <div class="ml-4 pt-2 border">
           <!--Large Display-->
-          <h1 class="display-1 font-weight-bold hidden-sm-and-down black--text"> {{title}} </h1>
+          <div class="display-1 font-weight-bold hidden-sm-and-down black--text" v-html="title"></div>
           <!--Small Display-->
-          <h1 class="hidden-md-and-up" style="font-size:4vw; line-height: 1; font-weight:700;"> {{title}} </h1>
+          <div class="hidden-md-and-up black--text" style="font-size:4vw; line-height: 1; font-weight:700;" v-html="title"></div>
 
-          <p class="subheading pt-2 grey--text text--darken-4 hidden-sm-and-down"> {{text.slice(0, 145) + '...'}} </p>
+          <div class="subheading pt-2 grey--text text--darken-4 hidden-sm-and-down" v-html="text.slice(0, 145) + '...'"></div>
           
           <!--Large Display-->
            <div class="hidden-xs-only">
-              By <span class="gradient-text pr-5"> {{source}} </span>
+             <span class="grey--text text--darken-2">By</span> <span class="gradient-text pr-5"> {{source}} </span>
               <Indicator colour="#EE3477" size="10"/>
-              <span class=""> {{date}}</span>
+              <span class="grey--text text--darken-2"> {{date}}</span>
            </div>
           <!--Small Display-->
            <div class="hidden-sm-and-up pt-2">
-              By <span class="gradient-text"> {{source}} </span> |
-              <span class=""> {{date}}</span>
+              <span class="grey--text text--darken-2 caption">By</span> <span class="gradient-text caption"> {{source}} </span>
+              <span class="grey--text text--darken-2 caption">| {{date}}</span>
            </div>
         </div>
       </v-flex>
